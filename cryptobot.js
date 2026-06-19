@@ -115,7 +115,13 @@ Updated At: ${data.timestamp}`;
 bot.onText(/\/start/, (msg) => {
   bot.sendMessage(
     msg.chat.id,
-    `Let go baby`
+    `Please send a crypto symbol and I will return the latest OKX price.
+
+Examples:
+BTC
+ETH
+SOL
+DOGE`
   );
 });
 
